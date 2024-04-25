@@ -1,0 +1,60 @@
+{
+    "listings": {
+        "https://oneagency.com.au": {
+            "business_spider_type": null,
+            "listing_spider_type": "selenium",
+            "property_spider_type": null,
+            "pagination_xpath": "//a[@title=\"View More Listings\"]"
+        },
+        "https://www.ljhooker.com.au": {
+            "business_spider_type": null,
+            "listing_spider_type": "selenium",
+            "property_spider_type": null,
+            "pagination_xpath": "//span[contains(text(), \"Next\")]"
+        },
+        "https://www.jelliscraig.com.au": {
+            "business_spider_type": null,
+            "listing_spider_type": "selenium",
+            "property_spider_type": null,
+            "pagination_xpath": "//span[text()=\"Load more\"]"
+        },
+        "https://www.obrienrealestate.com.au": {
+            "business_spider_type": null,
+            "listing_spider_type": "selenium",
+            "property_spider_type": null,
+            "pagination_xpath": "//a[contains(text(), \"Load More\")]"
+        },
+        "https://upstate.com.au": {
+            "business_spider_type": null,
+            "listing_spider_type": "selenium",
+            "property_spider_type": null,
+            "pagination_xpath": "//a[text()=\"View More\"]"
+        },
+        "https://www.dijones.com.au": {
+            "business_spider_type": null,
+            "listing_spider_type": "selenium",
+            "property_spider_type": null,
+            "pagination_xpath": "//button[contains(text(), \"Load \") and contains(text(), \" more\")]"
+        },
+        "https://www.wcre.com.au": {
+            "business_spider_type": null,
+            "listing_spider_type": "selenium",
+            "property_spider_type": null,
+            "pagination_xpath": "//a[text()=\"»\"]"
+        }
+    },
+    "sub_listings": {
+        "https://www.remax.com.au": {
+            "listing_spider_type": "selenium",
+            "pagination_xpath": "//button[text()=\"SHOW MORE\"]"
+        },
+        "https://www.mcgrath.com.au": {
+            "listing_spider_type": "selenium",
+            "pagination_xpath": "//input[@value=\"See More\"]"
+        },
+        "https://www.raywhite.com": {
+            "listing_spider_type": "selenium",
+            "pagination_xpath": "//span[text()=\"Load More\"]"
+        }
+    }
+}

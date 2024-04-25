@@ -1,0 +1,12 @@
+scrapy==2.5.1
+lxml
+pandas
+selenium-wire==4.6.4
+pyopenssl==22.0.0
+cryptography==38.0.4
+selenium==4.2.0
+requests
+python-dotenv
+mysqlclient
+SQLAlchemy==1.4.45
+openpyxl
